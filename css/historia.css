@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+
+  font-family: 'Century Gothic';
+  background-image: url(/img/paisatge.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  letter-spacing: 0.03;
+  line-height: 1.5;
+}
+
+a:hover{
+
+  color: brown;
+  }
+  
+
+h2{
+    background-color: rgba(0, 0, 0, 0.555);
+    color:white;
+    margin: 0% 4% 0% 4%;
+}
+
+
+
+.img1{
+    width: 20%;
+    float: right;
+    background-color: blueviolet;
+    margin-right: 6%; 
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+
+  .img2{
+    width: 20%;
+    float: left;
+    background-color: blueviolet;
+    margin-right: 2%; 
+    margin-left: 6%;
+    margin-top: 2%;
+  }
+
+
+/* Column container */
+.row {  
+    
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin-top: 4%;
+
+    
+  }
+  .row h2{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    font-weight: bold;
+
+
+  }
+
+  .row p {
+    font-size: 16px;
+    word-break: break-all;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 1%;
+
+    padding-top: 2%;
+
+  }
+
+  
+  
+
+ /*left column */
+  .side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: rgba(255, 255, 255, 0.589);
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main {   
+    -ms-flex: 70%; 
+    flex: 70%;
+    background-color: rgba(121, 121, 121, 0.548);
+    background-image: url(/img/paisatge.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 20px 0px 20px;
+    
+  }
+
+  .fakeimg {
+    
+    width: 100%;
+    padding: 4%;
+    padding-bottom: 0%;
+    display: flex;
+    
+  }
+
+
+  .fakeimg .ash{
+    width: 100%;
+    
+  }
+

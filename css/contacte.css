@@ -1,0 +1,66 @@
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+
+color: brown;
+}
+
+body{
+
+    font-family: 'Century Gothic';
+    background-image: url(/img/paisatge.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03;
+    line-height: 1.5;
+    text-decoration: none;
+
+}
+
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  .submit {
+    background-color: #1d04aa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    background-color: brown;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 10%; 
+
+    margin-bottom: 10%;
+  }
+
+  @media (max-width: 45em) {
+   
+    .container{margin-top: 30%;}
+  }
+  
