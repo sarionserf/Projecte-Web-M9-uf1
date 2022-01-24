@@ -30,3 +30,23 @@ body{
 margin-bottom: 110%;
 
 }
+
+footer{
+
+    position: fixed;
+   width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 110em) {
+   
+
+    
+    footer{
+
+       position: initial;
+       
+    }
+}
+   
+  
